@@ -3,7 +3,7 @@
 
 **Duration:** 30–45 minutes  
 **Difficulty:** 🟢 Beginner  
-**Objective:** Decode two CAN signals and demonstrate a benign injection in the simulator.
+**Objective:** Work as a team to decode two CAN signals and demonstrate a benign injection in the simulator.
 
 ---
 
@@ -137,28 +137,29 @@ cansend vcan0 19B#0000000F00
 
 ---
 
-## 📝 Deliverables
+## 📝 What to Share with the Group
 
-Create a file `~/automotive-cyber-lab/workspace/track_a_report.md` with:
+Be ready to show/discuss with the other teams:
 
-1. **Signal Map** — Table of IDs you discovered, byte positions, and scaling
-2. **Screenshot** — Show the dashboard responding to your injected frame
-3. **Exact cansend command** — The command you used for injection
-4. **Reflection** (3–5 sentences):
+1. **Signal Map** — Table of IDs your team discovered, byte positions, and scaling
+2. **Live Demo** — Show the dashboard responding to your injected frame
+3. **Discussion points:**
    - Why is this possible on CAN?
    - What is a replay attack and how does it relate?
-   - What defense would prevent this injection?
+   - What defense would you propose?
+
+💡 Optionally save notes in `~/automotive-cyber-lab/workspace/` for reference.
 
 ---
 
-## ✅ Checkpoints
+## ✅ Team Checkpoints
 
 | Time | Checkpoint | Status |
 |------|-----------|--------|
-| +10 min | Can see traffic in candump/cansniffer | ☐ |
-| +20 min | Identified speed and door IDs | ☐ |
-| +30 min | Successfully injected a frame | ☐ |
-| +40 min | Report written | ☐ |
+| +10 min | Everyone can see traffic in candump/cansniffer | ☐ |
+| +20 min | Team identified speed and door IDs | ☐ |
+| +30 min | Successfully injected a frame together | ☐ |
+| +40 min | Ready to share findings with the group | ☐ |
 
 ---
 

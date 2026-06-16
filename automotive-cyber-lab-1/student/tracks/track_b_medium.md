@@ -3,7 +3,7 @@
 
 **Duration:** 45–60 minutes  
 **Difficulty:** 🟡 Intermediate  
-**Objective:** Execute a replay attack, then build a simple IDS to detect it.
+**Objective:** Work as a team to execute a replay attack, then build a simple IDS to detect it.
 
 ---
 
@@ -208,28 +208,29 @@ For each attack type, propose a defense:
 
 ---
 
-## 📝 Deliverables
+## 📝 What to Share with the Group
 
-Create files in `~/automotive-cyber-lab/workspace/`:
+Be ready to show/discuss with the other teams:
 
-1. **track_b_ids.py** — Your modified IDS script with improvements
-2. **track_b_report.md** — Report containing:
-   - Attack documentation table (Task 1)
-   - Replay observations (Task 2)
-   - Detection accuracy table (Task 3)
-   - Defense proposals (Task 4)
-   - 1-page rationale: which heuristic is most effective and why?
+1. **Attack Demo** — Replay an attack live and show the IDS catching it
+2. **IDS Results** — Show your alert output and explain your heuristics
+3. **Discussion points:**
+   - Which attack was hardest to detect? Why?
+   - What's the tradeoff between catching attacks and false positives?
+   - What defense would you add to a real car?
+
+💡 Optionally save your modified IDS script and notes in `~/automotive-cyber-lab/workspace/`.
 
 ---
 
-## ✅ Checkpoints
+## ✅ Team Checkpoints
 
 | Time | Checkpoint | Status |
 |------|-----------|--------|
-| +10 min | Attack log analyzed, 4 attacks identified | ☐ |
-| +25 min | Replay attack executed successfully | ☐ |
-| +45 min | IDS detects all 4 attacks with ≤2 false positives | ☐ |
-| +55 min | Report and modified IDS script complete | ☐ |
+| +10 min | Team analyzed attack log, identified attacks | ☐ |
+| +25 min | Replay attack executed and observed together | ☐ |
+| +45 min | IDS running and detecting attacks | ☐ |
+| +55 min | Ready to demo and discuss with the group | ☐ |
 
 ---
 

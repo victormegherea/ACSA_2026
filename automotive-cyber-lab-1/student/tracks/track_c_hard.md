@@ -3,7 +3,7 @@
 
 **Duration:** 60–75 minutes  
 **Difficulty:** 🔴 Advanced  
-**Objective:** Interact with UDS on a virtual ECU, crack a weak seed-key, and propose defenses.
+**Objective:** Work as a team to interact with UDS on a virtual ECU, crack a weak seed-key, and propose defenses.
 
 ---
 
@@ -231,32 +231,31 @@ Write a 1-page defense proposal covering:
 
 ---
 
-## 📝 Deliverables
+## 📝 What to Share with the Group
 
-Create files in `~/automotive-cyber-lab/workspace/`:
+Be ready to show/discuss with the other teams:
 
-1. **track_c_report.md** — Report containing:
-   - ECU interface documentation (Task 1)
-   - Vulnerability analysis table (Task 2)
-   - Weak vs strong algorithm comparison (Task 3)
-   - Sequence diagram (Task 4, text or image)
-   - 1-page defense proposal (Task 5)
+1. **Live Demo** — Walk through the UDS session: session switch → seed → crack → read protected data
+2. **Vulnerability Breakdown** — Explain why the algorithm is weak and how you cracked it
+3. **Defense Sketch** — Present your team's defense proposal (whiteboard or diagram)
+4. **Discussion points:**
+   - How hard was it to crack? What if the key space were larger?
+   - What's the difference between detection and prevention?
+   - How would you secure a real ECU?
 
-2. **track_c_sequence.txt** — Your UDS sequence diagram
-
-3. **track_c_commands.txt** — All UDS commands you used (copy from terminal)
+💡 Optionally save your sequence diagram and notes in `~/automotive-cyber-lab/workspace/`.
 
 ---
 
-## ✅ Checkpoints
+## ✅ Team Checkpoints
 
 | Time | Checkpoint | Status |
 |------|-----------|--------|
-| +15 min | ECU explored, public DIDs read | ☐ |
-| +30 min | Seed-key cracked, protected DIDs accessed | ☐ |
-| +45 min | Write + revert completed | ☐ |
-| +60 min | Vulnerability analysis and sequence diagram done | ☐ |
-| +75 min | Defense proposal written | ☐ |
+| +15 min | Team explored ECU, read public DIDs | ☐ |
+| +30 min | Seed-key cracked together, protected data accessed | ☐ |
+| +45 min | Write + revert completed, vulnerabilities discussed | ☐ |
+| +60 min | Sequence diagram sketched as a team | ☐ |
+| +75 min | Defense proposal ready to present | ☐ |
 
 ---
 
